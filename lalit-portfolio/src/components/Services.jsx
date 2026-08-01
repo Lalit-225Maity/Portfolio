@@ -9,8 +9,7 @@ function Services() {
       className="py-24 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
-
-        {/* Heading */}
+ 
 
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -29,7 +28,7 @@ function Services() {
           </p>
         </motion.div>
 
-        {/* Cards */}
+         
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 

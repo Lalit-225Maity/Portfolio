@@ -61,7 +61,7 @@ function Hero() {
             my career as a Software Developer in the IT industry.
           </p>
 
-          {/* Buttons */}
+          
           <div className="flex flex-wrap gap-5 mt-8">
 
             <a

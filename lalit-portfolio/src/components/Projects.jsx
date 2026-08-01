@@ -14,8 +14,7 @@ function Projects() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
-        {/* Heading */}
-
+         
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -36,7 +35,7 @@ function Projects() {
           </p>
         </motion.div>
 
-        {/* Cards */}
+        
 
         <div className="space-y-16">
 
@@ -63,7 +62,7 @@ function Projects() {
               }`}
             >
 
-              {/* Image */}
+           
 
               <div className="overflow-hidden">
 
@@ -75,7 +74,7 @@ function Projects() {
 
               </div>
 
-              {/* Content */}
+              
 
               <div className="p-10">
 
@@ -87,7 +86,7 @@ function Projects() {
                   {project.description}
                 </p>
 
-                {/* Tech */}
+               
 
                 <div className="flex flex-wrap gap-3 mt-8">
 
@@ -104,7 +103,7 @@ function Projects() {
 
                 </div>
 
-                {/* Buttons */}
+               
 
                 <div className="flex gap-5 mt-10">
 
