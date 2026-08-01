@@ -45,8 +45,7 @@ function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-10 h-20">
-
-        {/* Logo */}
+ 
 
         <motion.h1
           whileHover={{ scale: 1.05 }}
@@ -57,7 +56,7 @@ function Navbar() {
           <span className="text-cyan-400">.</span>
         </motion.h1>
 
-        {/* Desktop */}
+       
 
         <ul className="hidden lg:flex gap-8">
 
@@ -83,7 +82,7 @@ function Navbar() {
 
         </ul>
 
-        {/* Right */}
+     
 
         <div className="hidden lg:flex items-center gap-5">
 
@@ -106,7 +105,7 @@ function Navbar() {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="/my_cv (3).pdf"
             className="px-5 py-2 rounded-full bg-cyan-500 hover:bg-cyan-400 transition"
           >
             Resume
@@ -114,7 +113,7 @@ function Navbar() {
 
         </div>
 
-        {/* Mobile */}
+        
 
         <button
           className="lg:hidden text-2xl"
@@ -125,8 +124,7 @@ function Navbar() {
 
       </div>
 
-      {/* Mobile Menu */}
-
+      
       <AnimatePresence>
 
         {open && (

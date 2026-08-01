@@ -14,14 +14,13 @@ function Hero() {
     <section
       id="home"
       className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-black pt-20"
-    >
-      {/* Background Blur */}
+    > 
       <div className="absolute -top-20 -left-20 h-72 w-72 rounded-full bg-cyan-500/20 blur-3xl"></div>
       <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-blue-600/20 blur-3xl"></div>
 
       <div className="max-w-7xl mx-auto px-6 lg:px-10 w-full grid lg:grid-cols-2 gap-12 items-center">
 
-        {/* Left */}
+        
         <motion.div
           initial={{ opacity: 0, x: -80 }}
           animate={{ opacity: 1, x: 0 }}
@@ -73,7 +72,7 @@ function Hero() {
             </a>
 
             <a
-              href="/resume.pdf"
+              href="/my_cv (3).pdf"
               className="px-7 py-3 rounded-full border border-cyan-500 hover:bg-cyan-500 transition flex items-center gap-2"
             >
               <FaDownload />
@@ -81,8 +80,7 @@ function Hero() {
             </a>
 
           </div>
-
-          {/* Socials */}
+ 
           <div className="flex gap-6 mt-8 text-2xl">
 
             <a
