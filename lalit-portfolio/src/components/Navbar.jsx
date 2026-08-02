@@ -38,14 +38,13 @@ function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6 }}
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scroll
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scroll
           ? "bg-slate-950/80 backdrop-blur-xl shadow-lg"
           : "bg-transparent"
-      }`}
+        }`}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-10 h-20">
- 
+      <div className="max-w-7xl mx-auto h-20 flex items-center justify-between px-4 sm:px-6 md:px-8 lg:px-10">
+
 
         <motion.h1
           whileHover={{ scale: 1.05 }}
@@ -56,7 +55,7 @@ function Navbar() {
           <span className="text-cyan-400">.</span>
         </motion.h1>
 
-       
+
 
         <ul className="hidden lg:flex gap-8">
 
@@ -82,7 +81,7 @@ function Navbar() {
 
         </ul>
 
-     
+
 
         <div className="hidden lg:flex items-center gap-5">
 
@@ -105,7 +104,7 @@ function Navbar() {
           </a>
 
           <a
-            href="/my_cv (3).pdf"
+            href="/my_cv (2).pdf"
             className="px-5 py-2 rounded-full bg-cyan-500 hover:bg-cyan-400 transition"
           >
             Resume
@@ -113,7 +112,7 @@ function Navbar() {
 
         </div>
 
-        
+
 
         <button
           className="lg:hidden text-2xl"
@@ -124,7 +123,7 @@ function Navbar() {
 
       </div>
 
-      
+
       <AnimatePresence>
 
         {open && (
@@ -145,7 +144,7 @@ function Navbar() {
                 duration={500}
                 offset={-70}
                 onClick={() => setOpen(false)}
-                className="block py-4 text-center capitalize border-b border-slate-800 hover:text-cyan-400 cursor-pointer"
+                className="block py-4 px-6 text-center capitalize bg-slate-900 border-b border-slate-800 text-gray-300 hover:bg-slate-800 hover:text-cyan-400 transition-all duration-300 cursor-pointer"
               >
                 {item}
               </Link>

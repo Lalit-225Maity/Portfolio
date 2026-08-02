@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Vibrant Gradient -->
+    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+
+    <linearGradient id="accent-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff0844"/>
+      <stop offset="100%" stop-color="#ffb199"/>
+    </linearGradient>
+
+    <!-- Deep Shadow -->
+    <filter id="glow-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#00f2fe" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Dark Canvas Background -->
+  <rect width="500" height="500" fill="#0b0f19"/>
+
+  <!-- Logo Mark -->
+  <g transform="translate(250, 250)" filter="url(#glow-shadow)">
+    <!-- Hexagon Frame Background -->
+    <polygon points="0,-115 100,-58 100,58 0,115 -100,58 -100,-58" fill="#151c2c" stroke="#2a364f" stroke-width="4"/>
+    
+    <!-- Left Code Bracket `<` -->
+    <path d="M-35 -50 L-75 0 L-35 50" fill="none" stroke="url(#cyber-grad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Right Code Bracket `>` -->
+    <path d="M35 -50 L75 0 L35 50" fill="none" stroke="url(#cyber-grad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Center Slash -->
+    <path d="M18 -55 L-18 55" fill="none" stroke="url(#accent-orange)" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>
