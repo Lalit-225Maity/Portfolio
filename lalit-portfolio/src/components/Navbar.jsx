@@ -104,7 +104,7 @@ function Navbar() {
           </a>
 
           <a
-            href="/my_cv (2).pdf"
+            href="/my_cv (5).pdf"
             className="px-5 py-2 rounded-full bg-cyan-500 hover:bg-cyan-400 transition"
           >
             Resume

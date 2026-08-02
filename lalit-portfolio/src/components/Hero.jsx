@@ -76,7 +76,7 @@ function Hero() {
               </a>
 
               <a
-                href="/my_cv (2).pdf"
+                href="/my_cv (5).pdf"
                 className="px-7 py-3 rounded-full border border-cyan-500 hover:bg-cyan-500 transition flex items-center justify-center gap-2"
               >
                 <FaDownload />
