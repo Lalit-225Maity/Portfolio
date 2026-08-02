@@ -211,7 +211,7 @@ export const projects = [
         github:
             "https://github.com/Lalit-225Maity/Online_Doctor__Appointments",
 
-        live: "#",
+        live: "https://online-doctor-appointments-8.onrender.com",
     },
     {
         id: 3,
