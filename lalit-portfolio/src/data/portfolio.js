@@ -24,9 +24,10 @@ import {
 } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 
-import bikeRental from "../assets/bike-rental.png";
+import Bike_Scooter from "../assets/Bike_Scooter.png"
 import medicare from "../assets/medicare.png";
 import Myntra from "../assets/Myntra.png"
+import Notes from "../assets/Notes.png"
 export const skillCategories = [
     {
         title: "Programming Languages",
@@ -167,13 +168,14 @@ export const projects = [
     {
         id: 1,
         title: "Bike & Scooter Rental System",
-        image: bikeRental,
+        image: Bike_Scooter,
 
         description:
             "A full-stack MERN application that allows users to browse, book, and rent bikes and scooters in real time. It features secure authentication, role-based dashboards, live vehicle availability, booking history, rental fare calculation, and a responsive mobile-first interface.",
 
         tech: [
             "React",
+            "JavaScript",
             "Node.js",
             "Express",
             "MongoDB",
@@ -200,12 +202,13 @@ export const projects = [
 
         tech: [
             "React",
+            "JavaScript",
+            "Node.js",
             "Express",
-            "Node",
             "MongoDB",
             "JWT",
-            "Tailwind",
-            "Postman",
+            "Tailwind CSS",
+            "REST API",
         ],
 
         github:
@@ -219,15 +222,37 @@ export const projects = [
         image: Myntra,
         description: "Online Shopping App is a full-stack MERN web application that provides a secure and responsive e-commerce experience. Users can browse products, search items, manage their cart, and place orders. The application includes JWT-based authentication, encrypted password storage, an admin panel for product and order management, and follows a scalable RESTful API architecture.",
         tech: [
+            "React",
+            "JavaScript",
+            "Node.js",
             "Express",
-            "Node",
             "MongoDB",
             "JWT",
-            "Tailwind",
-            "Postman",
+            "Tailwind CSS",
+            "REST API",
         ],
-        github:"https://github.com/Lalit-225Maity/Myntra_Clone_Using_MERN",
-        live:"#"
+        github: "https://github.com/Lalit-225Maity/Myntra_Clone_Using_MERN",
+        live: "#"
+
+    },
+    {
+        id: 3,
+        title: "Online Notes Management System",
+        image: Notes,
+        description: "The Notes Management System is a web-based platform designed to help students and teachers manage educational resources efficiently. Teachers can upload notes in various formats, while students can browse, search, and download materials based on department, semester, and subject. The application features secure authentication, role-based authorization, responsive design, and an intuitive interface for seamless learning.",
+        tech: [
+            "React",
+            "JavaScript",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "JWT",
+            " CSS",
+            "REST API",
+        ],
+        github: "https://github.com/Lalit-225Maity/Notes_Manage_Ment_System",
+        live: "#"
 
     }
+
 ];
